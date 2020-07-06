@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ImdbModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="ImdbModelStoreContainer" />
+  <!--Errors Found During Generation:
+      warning 6013: The table/view 'Imdb.dbo.movie_details' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="movie_details">
+        <Property Name="id" Type="int" />
+        <Property Name="movie_name" Type="nchar" MaxLength="64" />
+        <Property Name="movie_rating" Type="float" />
+        <Property Name="movie_release_date" Type="date" />
+        <Property Name="movie_duration" Type="int" />
+        <Property Name="movie_description" Type="nchar" MaxLength="64" />
+      </EntityType>-->
+</Schema>
